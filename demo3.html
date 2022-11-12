@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        forms
+    </title>
+</head>
+
+<body>
+    <div>
+        Registeration Form
+    </div>
+    <form>
+        <div>
+            <label for="firstName">
+                First Name :
+            </label>
+            <input type="text" name="myFirstName" id="firstName">
+        </div>
+        <div>
+            <label for="lastName">
+                Last Name :
+            </label>
+            <input type="text" name="myLastName" id="lastName">
+        </div>
+        <div>
+            <label for="date">
+                Date of Birth :
+            </label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <div>
+            <label for="mobileNumber">
+                Mobile Number :
+            </label>
+            <input type="number" name="myMobileNumber" id="mobileNumber">
+        </div>
+        <div>
+            <label>
+                Gender :
+            </label>
+            <label for="male">Male</lable><input type="radio" name="myGender" id="male">
+                <label for="female">Female</label><input type="radio" name="myGender" id="female">
+        </div>
+        <div>
+            <label>
+                Subject :
+            </label>
+            <label for="maths">Maths</label> <input type="checkbox" name="maths" id="maths" value="maths">
+            <label for="english">English</label> <input type="checkbox" name="english" id="english" value="english">
+            <label for="science">Science</label> <input type="checkbox" name="science" id="science" value="science">
+            <label for="hindi">Hindi</label> <input type="checkbox" name="hindi" id="hindi" value="hindi">
+        </div>
+        <div>
+            <label for="email">
+                Email :
+            </label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <div>
+            <label for="car">
+                Car :
+            </label>
+            <select id="car" name="car">
+                <option value="swift">Swift</option>
+                <option value="audi">Audi</option>
+                <option value="ambesdor">Ambesdor</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment">
+                Comment :
+            </label>
+            <textarea id="comment" name="myComment" rows="5" columns="30"></textarea>
+        </div>
+        <div>
+            <button type="submit">
+                Submit
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
