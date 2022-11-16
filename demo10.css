@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: 3px dotted purple;
+    width: 50%;
+    height: 149px;
+    margin:auto;
+    margin-top: 39px;
+    padding: 0px 13px;
+}
+.btn{
+    background-color: brown;
+    display:inline-block;
+    padding: 10px;
+    font-size: 15px;
+    height: 35px;
+    width: 14%;
+    cursor: pointer;
+}
+#linkBtn{
+    text-decoration: none;
+    text-align: center;
+}
+#normalButton{
+    border: none;
+}
+p{
+    margin: 13px 0px;
+}
+#linkBtn:hover{
+    background-color: yellow;
+    width: 18%;
+    height:40px;
+}
+#normalButton:hover{
+    background-color: orangered;
+}
+#linkBtn:visited{
+    color: yellow;
+}
+#linkBtn:active{
+    color: white;
+}    
