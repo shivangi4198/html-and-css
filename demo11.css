@@ -1,0 +1,28 @@
+.navbar {
+    background-color: rgb(33, 212, 212);
+    line-height: 38px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 34px;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+.search{
+    float: right;
+    margin: 9px 53px 0px 0px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    padding-left: -12px;
+    width: 181px;
+    padding-left: 12px;
+}
+.navbar ul li a:hover{
+    color: yellow;
+}
+    
+    
+    
