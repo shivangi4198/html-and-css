@@ -1,0 +1,26 @@
+.box{
+    border: 2px solid brown;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+.container{
+    position: absolute;
+    border:3px dotted black;
+    margin:100px 0px 0px 100px;
+    height: 9000px;
+}
+    
+
+#box3{
+    /* position: static; */
+    /* position:relative; */
+    /* position: fixed; */
+    /* position: sticky; */
+    position: absolute;
+    top: 20px;
+    left: 25px;   
+}
+/* body{
+    height: 9000px;
+} */
